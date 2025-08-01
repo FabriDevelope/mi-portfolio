@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mí | FabriDev</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="header-container"></div>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sobre Mí</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&w=800" alt="Fabricio">
+                </div>
+                <div class="about-text">
+                    <h3>Mi Historia</h3>
+                    <p>Apasionado por la tecnología y la música desde mi adolescencia, he encontrado en el desarrollo de software y en la batería dos formas complementarias de expresión creativa.</p>
+                    <p>Como desarrollador, me especializo en crear soluciones innovadoras con tecnologías modernas. Como músico, encuentro en la batería un lenguaje rítmico que complementa mi pensamiento lógico.</p>
+                    
+                    <div class="skills">
+                        <div class="skills-dev">
+                            <h4>Habilidades de Desarrollo</h4>
+                            <div class="skill-item">
+                                <div class="skill-name">
+                                    <span>JavaScript</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <!-- Más habilidades de desarrollo -->
+                        </div>
+                        
+                        <div class="skills-music">
+                            <h4>Habilidades Musicales</h4>
+                            <div class="skill-item">
+                                <div class="skill-name">
+                                    <span>Técnica</span>
+                                    <span>92%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress skill-music" style="width: 92%"></div>
+                                </div>
+                            </div>
+                            <!-- Más habilidades musicales -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline">
+                <!-- Timeline de eventos -->
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-container"></div>
+
+    <script src="assets/js/script.js"></script>
+    <script>
+        loadHeaderFooter();
+        document.addEventListener('DOMContentLoaded', function() {
+            animateSkills();
+            initTimeline();
+        });
+    </script>
+</body>
+</html>
