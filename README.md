@@ -1,2 +1,48 @@
-# mi-portfolio
-Lit mi portfolio :D
+# FabriDevelope – Portfolio Profesional
+Este es mi portfolio personal y profesional, desarrollado para presentar mi trabajo como desarrollador de software y, al mismo tiempo, mostrar un poco de lo que me identifica fuera del código: mi pasión por la batería.
+
+El objetivo de este sitio es centralizar todo lo que hago en un solo lugar, de forma moderna, visualmente atractiva y bien organizada.
+
+## Tecnologías utilizadas
+HTML5 semántico
+
+CSS3 con diseño responsive (Flexbox y Grid)
+
+JavaScript puro para interacciones dinámicas
+
+Animaciones personalizadas (scroll, hover, transición entre secciones)
+
+Modularización de componentes (header.html y footer.html)
+
+Organización profesional del proyecto para mantener escalabilidad y mantenimiento
+
+### Estructura del sitio
+El sitio se divide en distintas secciones, cada una en su propio archivo HTML:
+
+index.html – Página principal con presentación general
+
+sobre-mi.html – Perfil profesional y trayectoria
+
+proyectos.html – Muestra de trabajos y herramientas desarrolladas
+
+musica.html – Sección personal sobre mi faceta como baterista
+
+contacto.html – Formulario de contacto y redes
+
+Todos los archivos están conectados mediante navegación y comparten estilos y scripts comunes para mantener consistencia visual y funcional.
+
+### Despliegue
+Este sitio está desplegado en Netlify, lo que permite actualizaciones automáticas desde GitHub con cada cambio.
+Próximamente disponible en: https://fabriportfolio.netlify.app
+
+### Sobre mí
+Soy desarrollador con experiencia en frontend y backend, apasionado por crear herramientas útiles, funcionales y con buen diseño.
+Además, soy baterista desde hace años, y aunque no es el foco de este sitio, forma parte de mi esencia y también está presente.
+
+## Contacto
+Podés encontrarme en:
+
+GitHub: FabriDevelope
+
+Email: fabri.devv@gmail.com
+
